@@ -19,7 +19,7 @@ jobs:
     runs-on: macos-latest
     name: A job that runs on mac after first two jobs
     steps:
-      - run: pws
+      - run: pwd
       - name: New step
         run: ls
       - run: env
